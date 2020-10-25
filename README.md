@@ -4,7 +4,7 @@ Developing a module for preprocessing, PIV, post-processing and analysis of jets
 ## Main steps of the project :
 
 1. __Getting familiar with data acquisition and post processing__  
-    * Post proceesing sample data from ![2D jet example](https://github.com/alexlib/2D_jet_example), and Experimental Database(http://piv.de/uncertainty/?p=64)
+    * Post proceesing sample data from [2D jet example](https://github.com/alexlib/2D_jet_example), and [Experimental Database](http://piv.de/uncertainty/?p=64)
     * Preprocessing PIV images using local tracer particle density to distinguish between fluid entrained in the jet from the surrounding
     * Processing unmasked and masked PIV images and comparing their results
 
