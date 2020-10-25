@@ -1,10 +1,10 @@
 # Jet-Analysis-Module
-Developing a module for preprocessing, PIV, post-processing and analysis of jets, aiming at quantifying key parameters from experimental data like entrainment rates, diffusivity, spreading angle, self-similarity (planar or axisymmetric jets), etc
+Developing a module for preprocessing, PIV, post-processing and analysis of jets, with *an aim to quantify key parameters from experimental data like entrainment rates, spreading angle, self-similarity (planar or axisymmetric jets)*. Upon completion the code can be extended to include other parameters like diffusivity.
 
 ## Main steps of the project :
 
 1. __Getting familiar with data acquisition and post processing__  
-    * Post proceesing sample data from ![2D jet example](https://github.com/alexlib/2D_jet_example), and ![Experimental Database](http://piv.de/uncertainty/?p=64)
+    * Post proceesing sample data from ![2D jet example](https://github.com/alexlib/2D_jet_example), and Experimental Database(http://piv.de/uncertainty/?p=64)
     * Preprocessing PIV images using local tracer particle density to distinguish between fluid entrained in the jet from the surrounding
     * Processing unmasked and masked PIV images and comparing their results
 
@@ -18,7 +18,7 @@ Developing a module for preprocessing, PIV, post-processing and analysis of jets
 3. __Implementing the above formulas in Python, using textbook examples and data from above links for verification__
 
 4. __Testing the code using different sets of data and flow conditions obtained from literature to make the code universal and applicable in different scenarios__, 
-![The matrix on this website will be used to guide the search for relevant results in different flow conditions](http://piv.de/uncertainty/?page_id=44)
+The matrix on this website will be used to guide the search for relevant results in different flow conditions(http://piv.de/uncertainty/?page_id=44)
 
 5. __Based on the success of the 2D code, it will be extended to 3D to incorporate PTV results as well__
     * Using the technique mentioned ![on this website](https://ronshnapp.wordpress.com/2019/02/20/3d-ptv-demo-turbulent-jet/) data will be analyzed from ![here](https://figshare.com/articles/3D-PTV_Demo_-_Turbulent_Jet/7754834?file=14441249).
