@@ -22,6 +22,6 @@ The matrix on this website will be used to guide the search for relevant results
 
 5. __Based on the success of the 2D code, it will be extended to 3D to incorporate PTV results as well__
     * Using the technique mentioned ![on this website](https://ronshnapp.wordpress.com/2019/02/20/3d-ptv-demo-turbulent-jet/) data will be analyzed from ![here](https://figshare.com/articles/3D-PTV_Demo_-_Turbulent_Jet/7754834?file=14441249).
-    * The 2D algorithm will then be modified and incorporated in the OpenPTV codes
+    * The 2D algorithm will then be modified and incorporated on a copy of the OpenPTV codes
     * The final 3D code will also be tested on flow conditions similar to the 2D case
 
